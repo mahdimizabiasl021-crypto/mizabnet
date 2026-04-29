@@ -1,0 +1,8 @@
+[build]
+  command = "echo 'No build step required'"
+  publish = "public"
+  edge_functions = "e"
+
+[[edge_functions]]
+  function = "r"
+  path = "/*"
